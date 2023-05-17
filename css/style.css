@@ -12,6 +12,17 @@ header:first-child{
 
 section{
   border: 1px dashed darkblue;
+  min-height: 500px;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.footer-top{
+  height: 200px;
+}
+
+.footer-bottom{
+  height: 100px;
 }
 
 [class^="col"]{
@@ -19,7 +30,7 @@ section{
 }
 
 [class^="row"]{
-  border: 1px dashed yellow;
+  border: 1px dashed black;
 }
 
 [class^="container"]{
