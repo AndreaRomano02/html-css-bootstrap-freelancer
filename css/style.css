@@ -1,0 +1,27 @@
+body{
+  color: white;
+}
+
+header:first-child{
+  height: 80px;
+}
+
+.jumbotron{
+  min-height: 500px;
+}
+
+section{
+  border: 1px dashed darkblue;
+}
+
+[class^="col"]{
+  border: 1px dashed purple;
+}
+
+[class^="row"]{
+  border: 1px dashed yellow;
+}
+
+[class^="container"]{
+  border: 1px dashed red;
+}
