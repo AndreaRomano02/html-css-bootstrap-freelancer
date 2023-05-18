@@ -12,6 +12,10 @@ body{
   background-color: #43c5ba;
 }
 
+section{
+  padding: 3rem 0;
+}
+
 /** Separator star line */
 .separator-star-line{
   display: flex;
@@ -28,6 +32,12 @@ body{
   margin: 0 2vw;
 }
 
+.blu-star{
+  color: #2C3E50;
+}
+.bg-blu-star{
+  background-color: #2C3E50;
+}
 /* * Header */
 
 .navbar-collapse a{
@@ -43,31 +53,4 @@ header .navbar-toggler-icon{
 
 .jumbotron img{
   height: 300px;
-}
-
-section{
-  border: 1px dashed darkblue;
-  min-height: 500px;
-  margin-bottom: 2rem;
-  color: black;
-}
-
-.footer-top{
-  height: 200px;
-}
-
-.footer-bottom{
-  height: 100px;
-}
-
-[class^="col"]{
-  border: 1px dashed purple;
-}
-
-[class^="row"]{
-  border: 1px dashed black;
-}
-
-[class^="container"]{
-  border: 1px dashed red;
 }
