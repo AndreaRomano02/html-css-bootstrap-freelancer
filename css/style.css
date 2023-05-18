@@ -67,3 +67,20 @@ header .navbar-toggler-icon{
 #contact .form-control::placeholder{
   color: black;
 }
+
+/** Footer */
+.bg-footer-top{
+  background-color: #3A546D;
+}
+
+.bg-footer-bottom{
+  background-color: #2C3E50;
+}
+
+.social-icons .icon{
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
