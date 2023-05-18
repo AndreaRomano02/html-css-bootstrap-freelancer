@@ -58,6 +58,7 @@
   </header>
 
   <main>
+    <!--* Portfolio -->
     <section id="portfolio" class="container text-center text-black">
       <h2>PORTFOLIO</h2>
       <div class="separator-star-line">
@@ -75,7 +76,7 @@
       </div>
     </section>
 
-    <!-- ABOUT -->
+    <!--* ABOUT -->
     <section id="about" class="bg-acqua py-5 text-center">
       <div class="container">
         <h2>ABOUT</h2>
@@ -107,23 +108,62 @@
       </div>
     </section>
 
-    <section id="contact" class="container p-5">
+    <!--* Contact -->
+    <section id="contact" class="container p-5 text-black">
       <div class="text-center">
-        <h2>Contact me</h2>
-        <div>star+line</div>
+        <h2>CONTACT ME</h2>
+        <div class="separator-star-line">
+          <div class="small-separator bg-blu-star"></div>
+          <i class="fa-solid fa-star fa-2x blu-star"></i>
+          <div class="small-separator bg-blu-star"></div>
+        </div>
       </div>
-      <div>address bla bla</div>
-      <a href="#">send</a>
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <form action="" method="get">
+
+            <!-- Name -->
+            <div class="mb-3">
+              <input type="text" placeholder="Name" name="firstname" class="form-control" id="name">
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+              <input type="email" placeholder="Email Address" name="email" class="form-control" id="email">
+            </div>
+
+            <!-- Phone Number -->
+            <div class="mb-3">
+              <input type="tel" placeholder="Phone Number" name="phone" class="form-control" id="phone">
+            </div>
+
+            <!-- Message -->
+            <div class="mb-3">
+              <textarea name="message" class="form-control" id="message" placeholder="Message" rows="5"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-outline-light bg-acqua">Send</button>
+          </form>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="text-center">
     <div class="footer-top bg-secondary">
       <div class="container h-100">
-        <div class="row row-cols-md-3 h-100">
-          <div class="col-12">first col</div>
-          <div class="col-12">second col</div>
-          <div class="col-12">third col</div>
+        <div class="row row-cols-1 row-cols-md-3 h-100">
+          <div class="col">
+            <h3>LOCATION</h3>
+            <span>2215 John Daniel Drive Clark, MO 54243</span>
+          </div>
+          <div class="col">
+            <h3>ARROUND THE WEB</h3>
+          </div>
+          <div class="col">
+            <h3>ABOUT FREELANCER</h3>
+            <P>Freelance is a free to use, open source Bootstrap theme create by Start Bootstrap</P>
+          </div>
         </div>
       </div>
     </div>

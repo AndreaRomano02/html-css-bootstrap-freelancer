@@ -54,3 +54,16 @@ header .navbar-toggler-icon{
 .jumbotron img{
   height: 300px;
 }
+
+/** Contact */
+#contact .form-control{
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ced4da;
+  padding: 0;
+  padding-bottom: 1rem;
+}
+
+#contact .form-control::placeholder{
+  color: black;
+}
